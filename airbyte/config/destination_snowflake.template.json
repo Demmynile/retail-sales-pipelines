@@ -1,0 +1,16 @@
+{
+  "name": "retailio-snowflake-destination",
+  "destinationType": "snowflake",
+  "configuration": {
+    "host": "{{SNOWFLAKE_ACCOUNT}}.snowflakecomputing.com",
+    "role": "{{SNOWFLAKE_ROLE}}",
+    "warehouse": "{{SNOWFLAKE_WAREHOUSE}}",
+    "database": "{{SNOWFLAKE_DATABASE}}",
+    "schema": "{{SNOWFLAKE_SCHEMA}}",
+    "username": "{{SNOWFLAKE_USER}}",
+    "password": "{{SNOWFLAKE_PASSWORD}}",
+    "loading_method": {
+      "method": "internal_staging"
+    }
+  }
+}

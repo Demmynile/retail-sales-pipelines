@@ -1,0 +1,5 @@
+product_id,product_name,category,unit_price,currency,branch_id,last_updated
+P1001,Classic Tee,Apparel,24.99,USD,lagos,2026-03-31T08:15:00
+P1002,Slim Chinos,Apparel,49.50,USD,lagos,2026-03-31T08:16:00
+P1003,Running Shoes,Footwear,89.00,USD,abuja,2026-03-31T08:17:00
+P1004,Canvas Backpack,Accessories,59.99,USD,accra,2026-03-31T08:18:00

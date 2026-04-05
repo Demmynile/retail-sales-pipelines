@@ -1,0 +1,8 @@
+{
+  "name": "retailio-motherduck-destination",
+  "destinationType": "duckdb",
+  "configuration": {
+    "destination_path": "md:{{MOTHERDUCK_DATABASE}}?motherduck_token={{MOTHERDUCK_TOKEN}}",
+    "schema": "retail_data"
+  }
+}

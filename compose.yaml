@@ -1,0 +1,11 @@
+services:
+  pipeline:
+    build:
+      context: .
+    image: retail-sales-pipeline:latest
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    command: ["transform"]

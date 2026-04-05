@@ -1,0 +1,5 @@
+sale_id,sale_date,branch_id,product_id,customer_id,quantity,unit_price,sales_amount,payment_method
+S3001,2026-03-31T09:10:00,lagos,P1001,C2001,2,24.99,49.98,card
+S3002,2026-03-31T10:35:00,abuja,P1003,C2003,1,89.00,89.00,cash
+S3003,2026-03-31T12:05:00,accra,P1004,C2002,3,59.99,179.97,card
+S3004,2026-03-31T14:20:00,lagos,P1002,C2001,1,49.50,49.50,transfer

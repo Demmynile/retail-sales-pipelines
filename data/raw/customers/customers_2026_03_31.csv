@@ -1,0 +1,5 @@
+customer_id,first_name,last_name,email,phone,loyalty_tier,branch_id,created_at
+C2001,Amina,Bello,amina.bello@example.com,+234800000001,Gold,lagos,2025-11-21T14:00:00
+C2002,Kojo,Mensah,kojo.mensah@example.com,+233200000002,Silver,accra,2025-12-04T09:20:00
+C2003,Ngozi,Okafor,ngozi.okafor@example.com,+234800000003,Bronze,abuja,2026-01-12T12:10:00
+C2004,Efua,Owusu,efua.owusu@example.com,+233200000004,Gold,accra,2026-02-15T16:45:00

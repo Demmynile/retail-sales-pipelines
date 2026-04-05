@@ -1,0 +1,5 @@
+inventory_id,branch_id,product_id,on_hand_quantity,reorder_level,stock_status,updated_at
+I4001,lagos,P1001,120,30,in_stock,2026-03-31T07:00:00
+I4002,lagos,P1002,45,20,in_stock,2026-03-31T07:00:00
+I4003,abuja,P1003,18,15,low_stock,2026-03-31T07:00:00
+I4004,accra,P1004,65,25,in_stock,2026-03-31T07:00:00

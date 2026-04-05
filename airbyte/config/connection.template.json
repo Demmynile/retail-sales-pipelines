@@ -1,0 +1,61 @@
+{
+  "name": "retailio-s3-to-warehouse",
+  "namespaceDefinition": "destination",
+  "namespaceFormat": "${SOURCE_NAMESPACE}",
+  "prefix": "",
+  "status": "active",
+  "schedule": {
+    "scheduleType": "cron",
+    "cronExpression": "0 2 * * *",
+    "cronTimeZone": "UTC"
+  },
+  "nonBreakingSchemaUpdatesBehavior": "ignore",
+  "syncCatalog": {
+    "streams": [
+      {
+        "stream": {
+          "name": "products",
+          "jsonSchema": {},
+          "supportedSyncModes": ["full_refresh"]
+        },
+        "config": {
+          "syncMode": "full_refresh",
+          "destinationSyncMode": "overwrite"
+        }
+      },
+      {
+        "stream": {
+          "name": "customers",
+          "jsonSchema": {},
+          "supportedSyncModes": ["full_refresh"]
+        },
+        "config": {
+          "syncMode": "full_refresh",
+          "destinationSyncMode": "overwrite"
+        }
+      },
+      {
+        "stream": {
+          "name": "sales",
+          "jsonSchema": {},
+          "supportedSyncModes": ["full_refresh"]
+        },
+        "config": {
+          "syncMode": "full_refresh",
+          "destinationSyncMode": "append_dedup"
+        }
+      },
+      {
+        "stream": {
+          "name": "inventory",
+          "jsonSchema": {},
+          "supportedSyncModes": ["full_refresh"]
+        },
+        "config": {
+          "syncMode": "full_refresh",
+          "destinationSyncMode": "overwrite"
+        }
+      }
+    ]
+  }
+}
