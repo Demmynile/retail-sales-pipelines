@@ -10,6 +10,10 @@ This repository scaffolds a branch-to-cloud retail integration pipeline for sale
 - Validation SQL for warehouse quality checks
 - Monitoring report generation and implementation guidance
 
+## Pipeline Overview
+
+![Pipeline Architecture](pipeline.png)
+
 ## Architecture
 
 The project follows a Medallion pattern:
